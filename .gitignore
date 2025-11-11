@@ -1,0 +1,123 @@
+# ===================== #
+#   PYTHON BASICS       #
+# ===================== #
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# ===================== #
+#   ENVIRONMENT / CONFIG #
+# ===================== #
+# Environment and secrets
+.env
+.env.*
+*.env
+*.ini
+*.cfg
+*.toml
+config.yaml
+config.yml
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# ===================== #
+#   BUILD / DIST OUTPUT  #
+# ===================== #
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# ===================== #
+#   LOGS / CACHE / TEMP  #
+# ===================== #
+*.log
+logs/
+tmp/
+temp/
+.cache/
+pip-wheel-metadata/
+__pypackages__/
+*.sqlite3
+
+# ===================== #
+#   DATA / MODELS        #
+# ===================== #
+# Datasets and large files
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.zip
+*.tar
+*.gz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Model files
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.joblib
+*.model
+
+# Hugging Face / Transformers cache
+.huggingface/
+.cache/huggingface/
+transformers_cache/
+datasets_cache/
+
+# ===================== #
+#   NOTEBOOK / IDE FILES #
+# ===================== #
+# VS Code
+.vscode/
+.history/
+.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# ===================== #
+#   SYSTEM FILES         #
+# ===================== #
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===================== #
+#   OPTIONAL             #
+# ===================== #
+# If using Docker
+docker-compose.override.yml
+*.dockerfile
+
+# If using Weights & Biases / MLflow / Comet
+wandb/
+mlruns/
+comet/
