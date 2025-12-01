@@ -40,8 +40,7 @@ services:
       NEO4J_apoc_import_file_enabled: 'true'
       NEO4J_apoc_export_file_enabled: 'true'
       NEO4J_apoc_import_file_use__neo4j__config: 'true'
-    
-
+      
 volumes:
   mongodb_data:
   neo4j_data:
